@@ -74,8 +74,8 @@ export const SideNavbar = ({ admin = null, user = null }) => {
             <AiFillHeart className="mr-1" size={22} />
             <span className="w-full">
               {`Welcome, `}
-              {admin && admin.name.split(" ")[0]}
-              {user && user.name.split(" ")[0]}
+              {/* {admin && admin.name.split(" ")[0]} */}
+              {/* {user && user.name.split(" ")[0]} */}
             </span>
           </div>
 
@@ -116,8 +116,8 @@ export const SideNavbar = ({ admin = null, user = null }) => {
             <AiFillHeart className="mr-1" size={22} />
             <span className="w-full">
               {`Welcome, `}
-              {admin && admin.name.split(" ")[0]}
-              {user && user.name.split(" ")[0]}
+              {/* {admin && admin.name.split(" ")[0]}
+              {user && user.name.split(" ")[0]} */}
             </span>
           </div>
 

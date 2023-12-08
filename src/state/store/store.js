@@ -18,6 +18,7 @@ const persistConfig = {
   transforms: [
     encryptTransform({
       secretKey: "sprintsBankingSystemUsingREDUXPERSIST",
+      
       onError: function (error) {
         // Handle the error.
         console.log(error);
